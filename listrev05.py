@@ -30,6 +30,18 @@ def main():
     print(alta3classes[2:5])
 
     print(alta3classes[-1])
+    
+    print("Content of alta3classes")
+
+    print(alta3classes)
+
+    print(alta3classes[::-1])
+
+    print(alta3classes[1::-1])
+
+    print(alta3classes[:-3:-1])
+
+    print(alta3classes[-3::-1])
 
 if __name__ == "__main__":
     main()
